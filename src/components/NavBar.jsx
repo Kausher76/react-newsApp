@@ -1,8 +1,14 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import { useState } from "react"; // Remove this line if not used
+import { useNavigate } from "react-router-dom";
 
 export default class NavBar extends Component {
+  
+
   render() {
+    
+
     let { mode, toggleMode } = this.props;
     let myStyle;
     if (mode === "dark") {
@@ -44,28 +50,40 @@ export default class NavBar extends Component {
               id="navbarSupportedContent"
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-               
+                <li className="nav-item">
+                  <Link className="nav-link active" to={"/business"}>
+                    Business
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link active" to={"/entertainment"}>
+                    Entertainment
+                  </Link>
+                </li>
+
+                <li className="nav-item">
+                  <Link className="nav-link active" to={"/health"}>
+                    Health
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link active" to={"/science"}>
+                    Science
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link active" to={"/sports"}>
+                    Sports
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link active" to={"/technology"}>
+                    Technology
+                  </Link>
+                </li>
                 
-                <li className="nav-item">
-                  <Link className="nav-link active" to={'/business'}>Business</Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link active" to={'/entertainment'}>Entertainment</Link>
-                </li>
-              
-                <li className="nav-item">
-                  <Link className="nav-link active" to={'/health'}>Health</Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link active" to={'/science'}>Science</Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link active" to={'/sports'}>Sports</Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link active" to={'/technology'}>Technology</Link>
-                </li>
               </ul>
+
               <div className="form-check form-switch sticky-top">
                 <input
                   onClick={toggleMode}
