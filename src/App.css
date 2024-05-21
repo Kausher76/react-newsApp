@@ -1,0 +1,20 @@
+.myContainer {
+  background-color: #292a2d;
+  color: white;
+  width: 100vw;
+}
+* {
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 768px) {
+  .myContainer {
+    height: 100vh;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .myContainer {
+    height: 100%;
+  }
+}

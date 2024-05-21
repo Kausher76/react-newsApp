@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "totalResults": 4,
+  "articles": [
+    {
+      "source": { "id": "the-times-of-india", "name": "The Times of India" },
+      "author": "TOI Sports Desk",
+      "title": "'They need to be penalised': Sunil Gavaskar calls for action amid England players' early IPL exit controv - The Times of India",
+      "description": "Cricket News: Former India captain Sunil Gavaskar has urged the BCCI and IPL franchises to take decisive action following the England and Wales Cricket Board's dire",
+      "url": "https://timesofindia.indiatimes.com/sports/cricket/ipl/top-stories/they-need-to-be-penalised-sunil-gavaskar-calls-for-action-amid-england-players-ipl-exit-controversy/articleshow/110052383.cms",
+      "urlToImage": "https://static.toiimg.com/thumb/msid-110052399,width-1070,height-580,imgsize-57960,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+      "publishedAt": "2024-05-12T08:22:00Z",
+      "content": null
+    },
+    {
+      "source": { "id": null, "name": "Hindustan Times" },
+      "author": "HT Sports Desk",
+      "title": "IPL 2024, CSK vs RR IPL Live Score: MS Dhoni headlines Chennai's final home game - Hindustan Times",
+      "description": "IPL 2024, CSK vs RR IPL Live Score: Chennai Super Kings vs Rajasthan Royals - CSK are up against RR in match No.61 of the IPL 2024 at the Chepauk.",
+      "url": "https://www.hindustantimes.com/cricket/ipl-2024-csk-vs-rr-ipl-live-score-match-61-chennai-super-kings-vs-rajasthan-royals-scorecard-ipl-match-today-live-12-may-101715490182001.html",
+      "urlToImage": "https://www.hindustantimes.com/ht-img/img/2024/05/12/550x309/PTI04-30-2024-000317A-0_1715490439942_1715490457043.jpg",
+      "publishedAt": "2024-05-12T08:16:07Z",
+      "content": "IPL 2024, CSK vs RR IPL Live Score: Chennai Super Kings vs Rajasthan Royals -With table-toppers Kolkata Knight Riders becoming the first team to enter the playoff stage of the Indian Premier League s… [+15245 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Betfair.com" },
+      "author": "Betting.betfair",
+      "title": "Royal Challengers Bangalore v Delhi Capitals IPL Tips: No Pant no problem for DC - Betting.betfair",
+      "description": null,
+      "url": "https://betting.betfair.com/cricket/indian-premier-league---ipl/royal-challengers-bangalore-v-delhi-capitals-ipl-tips-no-pant-no-problem-for-dc-110524-194.html",
+      "urlToImage": null,
+      "publishedAt": "2024-05-12T07:32:00Z",
+      "content": null
+    },
+    {
+      "source": { "id": null, "name": "Livemint" },
+      "author": "Livemint",
+      "title": "Canada arrests fourth Indian national in killing of Sikh separatist Hardeep Singh Nijjar | Mint - Mint",
+      "description": "Amandeep Singh, a fourth Indian national, was arrested and charged in the killing of Khalistani leader Hardeep Singh Nijjar in Vancouver. The incident caused a diplomatic dispute between Canada and India, with allegations linking Indian intelligence to the ‘a…",
+      "url": "https://www.livemint.com/news/world/canada-arrests-fourth-indian-national-in-killing-of-sikh-separatist-khalistani-leader-terrorist-hardeep-singh-nijjar-11715481505180.html",
+      "urlToImage": "https://www.livemint.com/lm-img/img/2024/05/12/1600x900/India-said-Thursday-that-Canada-has-informed-it-ab_1715481860351_1715481873019.jpg",
+      "publishedAt": "2024-05-12T02:50:11Z",
+      "content": "Canadian authorities have charged a fourth Indian national in connection with the 2023 killing of a separatist Sikh leader, Hardeep Singh Nijjar, in Vancouver, as per an AFP report. Amandeep Singh, a… [+2506 chars]"
+    }
+  ]
+}
