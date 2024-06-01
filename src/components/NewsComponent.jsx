@@ -62,7 +62,7 @@ export default class NewsComponent extends Component {
       <>
         <div  style={myStyle} className="myContainer">
           <h2
-            className={`text-center my-3 text-${
+            className={`text-center text-${
               mode === "dark" ? "light" : "dark"
             }`}
           >
