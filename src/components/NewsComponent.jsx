@@ -68,7 +68,7 @@ export default class NewsComponent extends Component {
           >
             News Top Headlines
           </h2>
-          {this.state.loading && <Loader/>}
+          {this.state.loading && <iframe src="https://giphy.com/embed/3AMRa6DRUhMli" width="480" height="480" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/bw-follow-back-3AMRa6DRUhMli">via GIPHY</a></p>}
           <div className="row">
             { (!this.state.loading) && this.state.article.map((element) => (
               <div
