@@ -87,19 +87,12 @@ export default class NavBar extends Component {
               <div className="form-check form-switch sticky-top">
                 <input
                   onClick={toggleMode}
-                  className="form-check-input"
+                  className="form-check-input text-center"
                   type="checkbox"
                   role="switch"
                   id="flexSwitchCheckDefault"
                 />
-                <label
-                  className={`form-check-label ${
-                    mode === "dark" ? "text-light" : "text-dark"
-                  }`}
-                  htmlFor="flexSwitchCheckDefault"
-                >
-                  {mode === "dark" ? "Enable Light Mode" : "Enable Dark Mode"}
-                </label>
+                
               </div>
             </div>
           </div>
