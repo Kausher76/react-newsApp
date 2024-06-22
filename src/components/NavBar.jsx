@@ -26,7 +26,7 @@ export default class NavBar extends Component {
     return (
       <div style={myStyle}>
         <nav
-          className={`navbar navbar-expand-lg navbar-${mode} bg-${
+          className={`navbar text-center navbar-expand-lg navbar-${mode} bg-${
             mode === "dark" ? "dark" : "light"
           }`}
         >
