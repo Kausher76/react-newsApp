@@ -68,7 +68,10 @@ export default class NewsComponent extends Component {
           >
             News Top Headlines
           </h2>
-          {this.state.loading && <Loader/> }
+{/*           {this.state.loading && <Loader/> } */}
+          {this.state.loading && <div class="spinner-border" role="status">
+  <span class="sr-only">Loading...</span>
+</div> }
           <div className="row">
             { (!this.state.loading) && this.state.article.map((element) => (
               <div
