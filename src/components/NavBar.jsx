@@ -84,10 +84,10 @@ export default class NavBar extends Component {
                 
               </ul>
 
-              <div className="form-check form-switch sticky-top">
+              <div className="form-check form-switch sticky-top text-center">
                 <input
                   onClick={toggleMode}
-                  className="form-check-input text-center"
+                  className="form-check-input "
                   type="checkbox"
                   role="switch"
                   id="flexSwitchCheckDefault"
